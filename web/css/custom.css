@@ -1,0 +1,326 @@
+@font-face {
+  font-family: GothamLight;
+  src: url(../fonts/Gotham-Font/GothamLight.ttf);
+}
+
+@font-face {
+  font-family: GothamBold;
+  src: url(../fonts/Gotham-Font/GothamBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+html, body {
+  font-family: GothamLight;
+}
+
+.rota-img {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+}
+
+.content-alert {
+  margin-left: 225px;
+  margin-right: 350px;
+  margin-top: 25px;
+}
+
+.navbar {
+  padding: 1rem 1rem
+}
+
+.text-bold {
+  font-family: GothamBold;
+}
+
+.list-group-item.active {
+  color: #4b0d44;
+  font-weight: bold;
+}
+
+.credit {
+  margin-left: 35px;
+}
+
+.line {
+  position: absolute;
+  bottom: 10px;
+  left: 33%;
+}
+
+.form-create-order {
+  //font-family: OpenSans;
+  color: #0C0C0C;
+  font-size:  1.05rem;
+  margin-top: 65px;
+}
+
+.container-proyecto {
+  padding-bottom: 140px;
+}
+
+.form-control, .form-control:focus {
+  background-color: #e2e2e2;
+}
+
+.form-control:focus {
+  border-color: #4b0d44;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(75,13,68,0.3);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(75,13,68,0.3);
+  box-shadow: 0px 0px 15px 0px rgba(75,13,68,0.3);
+}
+
+.form-control-lg {
+  font-size: 1rem;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: #000;
+    border-radius: 50%;
+}
+    
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 123, 255, 0.25);
+}
+
+select {
+  background: url("../img/icons/chevron-right-6.png") no-repeat right #FFF;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-position: 90%;
+}
+
+.select-custom {
+  text-align-last:center;
+}
+
+.small, small {
+    font-size: 95%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  font-size: 0.9rem;
+  background-color: #fff;
+  border-top: 1px solid #6c757d;
+  padding-top: 6px;
+  z-index: 99;
+}
+
+.container-footer {
+  padding-left: 10%;
+}
+
+.btn-outline-wac {
+  font-size: 1rem;
+  color: #16b494;
+  border-color: #16b494;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+.btn-outline-wac>img {
+  margin-right: 15px;
+}
+
+.btn-outline-wac:hover, .btn-outline-wac:focus, .btn-outline-wac:active {
+  color: #16b494;
+  background-color: #FFF;
+  border-color: #16b494;
+}
+
+.btn-outline-wac:not(:disabled):not(.disabled).active, .btn-outline-wac:not(:disabled):not(.disabled):active, .show>.btn-outline-wac.dropdown-toggle {
+  color: #16b494;
+  background-color: transparent;
+  border-color: #16B494;
+}
+
+.btn-proceso {
+  position: absolute;
+  right: 0px;
+  margin-right: 10%;
+  bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #16b494;
+  border-color: #16B494;
+}
+
+.btn-proceso:hover, .btn-proceso:focus, .btn-proceso:active {
+  background-color: #16b494;
+  border-color: #16B494;
+}
+
+.btn-proceso:not(:disabled):not(.disabled).active, .btn-proceso:not(:disabled):not(.disabled):active, .show>.btn-proceso.dropdown-toggle {
+  background-color: #16b494;
+  border-color: #16B494;
+}
+
+.text-verde {
+  color: #16B494;
+}
+
+.user {
+  margin-top: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  position: absolute;
+}
+
+.img-drop-down {
+  margin-top: 15px;
+}
+
+.img-icon-sidebar {
+  margin: 0 25px;
+}
+
+.img-icon-dropdown {
+  margin-right: 15px;
+}
+
+.mt-m {
+  margin-top: -1%;
+}
+
+.user-name {
+  margin-left: 52px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.user-type {
+  position: absolute;
+  top: 33px;
+  left: 60px;
+}
+
+.img-drop {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.drop-down::after {
+  border: none;
+}
+
+.dropdown-menu-right {
+  margin-top: 16px;
+  right: 0;
+  left: auto;
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  border: 1px solid #dee2e6;
+}
+
+.list-group-item {
+  border: none;
+  padding: 0.8rem 1.25rem;
+}
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  margin-top: 10px;
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  background-color: #efefef8a;
+}
+
+.bg-content {
+  background-color: #ececec;
+  border-bottom: 1px solid #ccc;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+
+.input-lg.select2-container--krajee .select2-selection--multiple .select2-selection__choice, .input-group-lg .select2-container--krajee .select2-selection--multiple .select2-selection__choice {
+    font-size: 14px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    margin: 6px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.input-lg.select2-container--krajee .select2-selection--multiple .select2-selection__choice__remove, .input-group-lg .select2-container--krajee .select2-selection--multiple .select2-selection__choice__remove {
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.select2-container--krajee .select2-selection--multiple .select2-selection__rendered {
+  background-color: #e2e2e2;
+  
+}
+
+.input-lg.select2-container--krajee .select2-selection--multiple .select2-search--inline .select2-search__field, .input-group-lg .select2-container--krajee .select2-selection--multiple .select2-search--inline .select2-search__field {
+  height: 42px;
+}
+
+.input-lg.select2-container--krajee .select2-selection__clear, .input-group-lg .select2-container--krajee .select2-selection__clear {
+    top: 6px;
+    font-size: 24px;
+}
+
+.input-lg.select2-container--krajee .select2-selection--multiple, .input-group-lg .select2-container--krajee .select2-selection--multiple {
+  min-height: 40px;
+}
+
+.img-logo {
+  margin-top: 15%;
+}
+
+.img-logo:hover {
+  transition:all .3s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
